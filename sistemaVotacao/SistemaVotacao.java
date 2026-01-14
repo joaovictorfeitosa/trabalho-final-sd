@@ -16,7 +16,7 @@ public class SistemaVotacao {
         
         usuarios.put("admin", new Administrador("admin", "admin123"));
         usuarios.put("joao", new Votante("joao", "joao123"));
-        usuarios.put("ana", new Votante("ana", "ana123"));
+        usuarios.put("maria", new Votante("maria", "maria123"));
         candidatos.put(13, new Candidato(13, "Lula"));
         candidatos.put(17, new Candidato(17, "Bolsonaro"));
     }
